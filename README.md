@@ -18,15 +18,14 @@ Folders and Codes
 redecrit1mc13.for – This algorithm uses the dissimilarity concept to determine the best critical values of mobility weight to be used in the evaluation of Sentinel Index, both in the betweenness centrality analysis and in the meta-population SIR model.
 
 2. Generates adjacency matrix for selected critical value of mobility weight: 
-simi.f90 – This algorithm generates the adjacency matrix for the selected critical value of mobility weight selected by analyzing the results provided by redecrit1mc13.for . 
+simi.f90 – This algorithm generates the adjacency matrix for the selected critical value of mobility weight selected by analyzing the results provided by redecrit1mc13.for .
 
+4. Generates neighborhood matrix for selected critical value of mobility weight: madchar13.for – This algorithm uses the adjacency matrix for the selected critical value of mobility weight to generate the corresponding neighborhood matrix. 
 
-3. Generates neighborhood matrix for selected critical value of mobility weight: madchar13.for – This algorithm uses the adjacency matrix for the selected critical value of mobility weight to generate the corresponding neighborhood matrix. 
-
-4. Determines community structure and build dendrogram using Newman-Girvan method: 
+5. Determines community structure and build dendrogram using Newman-Girvan method: 
 dendo2uQ.for – The Newman-Girvan algorithm is used to identify the community structure of the un-weighted network obtained at the selected critical value of mobility weight.
 
-5. Computes betweenness centrality for the network:
+6. Computes betweenness centrality for the network:
 betweenness.f90 – This algorithm implements the Brandes algorithm to calculate the betweenness centrality of the nodes in the unweighted network. Betweenness centrality measures the importance of each node in terms of the shortest paths passing through it, providing insights into network connectivity and key nodes for information or disease spread. 
 
 
@@ -49,4 +48,10 @@ To run the notebooks, make sure you have installed:
 Python 3.8+
 Jupyter Notebook
 Libraries: numpy, pandas, networkx, matplotlib, scipy, seaborn
+
+Authors
+Dérick G. F. Borges and Roberto F. S. Andrade
+
+Email address
+derick.gabriel@ufba.br or randrade@ufba.br
 
