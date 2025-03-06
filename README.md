@@ -47,7 +47,7 @@ Requirements
 To run the notebooks, make sure you have installed:
 Python 3.8+
 Jupyter Notebook
-Libraries: numpy, pandas, networkx, matplotlib, scipy, seaborn
+Libraries: numpy, pandas, matplotlib, scipy, seaborn
 
 Authors
 Dérick G. F. Borges and Roberto F. S. Andrade
