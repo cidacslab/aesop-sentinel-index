@@ -10,7 +10,7 @@ Sentinel_index.ipynb: Notebook for calculating sentinel surveillance indices.
 
 Codes implemented in Fortran
 
-These algorithms are used to study the general network structure, leading to the construction of a dendrogram for community identification. Input data consists of a matrix containing the edge strengths of a weighted network, besides parameters indicating the number of nodes, threshold limits to project weighted network into a sequence of unweighted ones. Outputs of an algorithm will, in the sequence, be used as input to the forthcoming algorithm in the sequence. For the current case, the weights of the input network correspond to the number of persons moving from one to another IGR, extracted from the IBGE mobility data. Also available at URL do github to projeto AESOP.
+These algorithms are used to study the general network structure, leading to the construction of a dendrogram for community identification. Input data consists of a matrix containing the edge strengths of a weighted network, besides parameters indicating the number of nodes, threshold limits to project weighted network into a sequence of unweighted ones. Outputs of an algorithm will, in the sequence, be used as input to the forthcoming algorithm in the sequence. For the current case, the weights of the input network correspond to the number of persons moving from one to another IGR, extracted from the IBGE mobility data. 
 
 Folders and Codes
 
@@ -20,12 +20,12 @@ redecrit1mc13.for – This algorithm uses the dissimilarity concept to determine
 2. Generates adjacency matrix for selected critical value of mobility weight: 
 simi.f90 – This algorithm generates the adjacency matrix for the selected critical value of mobility weight selected by analyzing the results provided by redecrit1mc13.for .
 
-4. Generates neighborhood matrix for selected critical value of mobility weight: madchar13.for – This algorithm uses the adjacency matrix for the selected critical value of mobility weight to generate the corresponding neighborhood matrix. 
+3. Generates neighborhood matrix for selected critical value of mobility weight: madchar13.for – This algorithm uses the adjacency matrix for the selected critical value of mobility weight to generate the corresponding neighborhood matrix. 
 
-5. Determines community structure and build dendrogram using Newman-Girvan method: 
+4. Determines community structure and build dendrogram using Newman-Girvan method: 
 dendo2uQ.for – The Newman-Girvan algorithm is used to identify the community structure of the un-weighted network obtained at the selected critical value of mobility weight.
 
-6. Computes betweenness centrality for the network:
+5. Computes betweenness centrality for the network:
 betweenness.f90 – This algorithm implements the Brandes algorithm to calculate the betweenness centrality of the nodes in the unweighted network. Betweenness centrality measures the importance of each node in terms of the shortest paths passing through it, providing insights into network connectivity and key nodes for information or disease spread. 
 
 
