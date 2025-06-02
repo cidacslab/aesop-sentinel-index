@@ -15,7 +15,7 @@ These algorithms are used to study the general network structure, leading to the
 Folders and Codes
 
 1. Convert weighted mobility network into unweighted counterpart: 
-redecrit1mc13.for – This algorithm uses the dissimilarity concept to determine the best critical values of mobility weight to be used in the evaluation of Sentinel Index, both in the betweenness centrality analysis and in the meta-population SIR model.
+redecrit1mc13.for – This algorithm uses the dissimilarity concept to determine the best critical values of mobility weight to be used in the evaluation of Sentinel Index, both in the betweenness centrality analysis and in the meta-population SIR model.(Input data to start reproducibility of results is "ms_BA_rodo_34rgi_fs.dat")
 
 2. Generates adjacency matrix for selected critical value of mobility weight: 
 simi.f90 – This algorithm generates the adjacency matrix for the selected critical value of mobility weight selected by analyzing the results provided by redecrit1mc13.for .
