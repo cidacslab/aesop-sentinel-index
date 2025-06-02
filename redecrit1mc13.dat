@@ -1,0 +1,193 @@
+34 20000
+1 200 20000
+ms_BA_rodo_34rgi_fs.dat
+res_rodo_rgiBA.dat
+viz_rodo_rgiBA.dat
+adj_rodo_rgiBA.dat
+-1 -1 -1
+
+
+mn_rodo_rgiBA.dat
+27 10000
+1 100 10000
+m_aero2016_27_rgi.dat
+res_aero2016_27rgi.dat
+viz_aero2016_27rgi.dat
+adj_aero2016_27rgi.dat
+-1 -1 -1
+
+m_rodo_rgiBA.dat
+
+27 70000
+1 0.00001 1
+27rgi_normalizado.dat
+2tres_16s_27rgi.dat
+2tviz_16s_27rgi.dat
+2tadj_16s_27rgi.dat
+-1 -1 -1
+
+
+80 100 
+1 1 63
+cob_matriz.dat
+results_cob.dat
+S_vizcob_matriz.dat
+S_adjcob_matriz.dat
+-1 -1 -1
+
+
+344 100
+1 1 68
+plex4P.dat
+results.dat
+viz.dat
+adj_68p4.dat
+-1 -1 -1
+
+172 100
+1 1 62
+plex2Rcbn9.dat
+results.dat
+viz.dat
+adj_62cbn9.dat
+-1 -1 -1
+
+
+
+172 100
+1 1 66
+plex2Rn9n1.dat
+results_66m2n9n1.dat
+viz_66m2n9n1.dat
+adj_66m2n9n1.m
+-1 -1 -1
+
+
+172 100
+1 1 55
+plex2Rcxn9.dat
+results_55m2cxn9.dat
+viz_55m2cxn9.dat
+adj_55m2cxn9.m
+-1 -1 -1
+
+
+172 100
+1 1 59.5
+plex2Rcbn9.dat
+results_595m2cbn9.dat
+viz_595m2cbn9.dat
+adj_595m2cbn9.m
+-1 -1 -1
+
+
+
+172 100
+1 1 68
+plex2Rn9n1.dat
+results_68m2n9n1.dat
+viz_68m2n9n1.dat
+adj_68m2n9n1.m
+-1 -1 -1
+
+172 100
+1 1 68
+plex2Rn9n1.dat
+results_68m2n9n1.dat
+viz_68m2n9n1.dat
+adj_68m2n9n1.dat
+-1 -1 -1
+
+
+172 100
+1 1 100
+plex2Rn9n1.dat
+results_Rn9n1.dat
+semvalor1.dat
+semvalor2.dat
+-1 -1 -1
+
+
+
+172 100
+1 1 100
+plex2Rcbn9.dat
+results_Rcbn9.dat
+semvalor1.dat
+semvalor2.dat
+-1 -1 -1
+
+plex2Rcxcb
+78 100 
+1 1 100
+nad9_matriz.dat
+results_nad9.dat
+S_viznad9_matriz.dat
+S_adjnad9_matriz.dat
+-1 -1 -1
+
+
+42 100 
+45 1 1
+msimquitmult.dat
+Saimsimquitmult46.dat
+Svimsimquitmult46.dat
+Sadmsimquitmult46.dat
+-1 -1 -1
+
+42 100 
+51 1 1
+msimquitmult.dat
+Saimsimquitmult51.dat
+Svimsimquitmult51.dat
+Sadmsimquitmult51.dat
+-1 -1 -1
+
+22 100
+1 1 99
+matrix_rbcs1a_network.dat
+Saimatrix_rbcs1a_network.dat
+Svimatrix_rbcs1a_network.dat
+Sadmatrix_rbcs1a_network.dat
+-1 -1 -1
+
+42 100 
+45 1 1
+msimquitfi.dat
+Saimsimqfi46.dat
+Svimsimqtfi46.dat
+Sadmsimqtfi46.dat
+-1 -1 -1
+
+42 100 
+46 1 1
+msimquitfi.dat
+Saimsimqfi47.dat
+Svimsimqtfi47.dat
+Sadmsimqtfi47.dat
+-1 -1 -1
+
+42 100 
+1 1 99
+msimquitfi.dat
+Saimsimquitfi.dat
+Svimsimquitfi.dat
+Sadmsimquitfi.dat
+-1 -1 -1
+
+42 100 
+1 1 99
+msimchit42.dat
+Saimsimchit42.dat
+Svimsimchit42.dat
+Sadmsimchit42.dat
+-1 -1 -1
+
+42 100 
+1 1 99
+msim42quit.dat
+Saimsim42quit.dat
+Svimsim42quit.dat
+Sadmsim42quit.dat
+-1 -1 -1
+
